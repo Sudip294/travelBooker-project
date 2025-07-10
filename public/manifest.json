@@ -1,0 +1,19 @@
+{
+    "name": "Travel Booker",
+    "short_name": "TravelBooker",
+    "description": "Book and explore amazing travel destinations around the world.",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4f8cff",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "src/assets/favicon.svg",
+        "sizes": "any",
+        "type": "image/svg+xml",
+        "purpose": "any maskable"
+      }
+    ],
+    "scope": "."
+  }
