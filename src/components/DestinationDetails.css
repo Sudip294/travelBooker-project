@@ -134,7 +134,7 @@
     .thumbnails-row {
       flex-wrap: nowrap;
       overflow-x: auto;
-      justify-content: flex-start;
+      justify-content: center;
       padding-bottom: 8px;
     }
     .thumbnail-img {
@@ -150,6 +150,7 @@
     max-height: 600px;
     overflow-y: auto;
     padding-right: 8px;
+    scrollbar-width: none;
   }
   @media (max-width: 991px) {
     .details-scrollable {

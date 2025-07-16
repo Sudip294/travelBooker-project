@@ -842,8 +842,8 @@ body.dark-theme .blog-readmore:hover {
   color: #4f8cff;
 }
 
+/* navbar toggler dark theme */
 
-
-
-
-
+body.dark-theme .navbar-dark .bar {
+  background-color: #ffffff !important;
+  }

@@ -79,7 +79,7 @@ function DestinationDetails() {
         <div className="row align-items-center g-5">
           <div className="col-lg-6">
             <div className="skeleton-img mb-3"></div>
-            <div className="d-flex gap-2">
+            <div className="d-flex gap-2 justify-content-center">
               {[1,2,3,4].map(i => (
                 <div key={i} className="skeleton-thumbnail"></div>
               ))}
@@ -111,7 +111,7 @@ function DestinationDetails() {
       <div className="row align-items-center g-5">
         {/* Left: Fixed image and thumbnails */}
         <div className="col-lg-6">
-          <div className="img-zoom-container mb-3" style={{ position: 'relative', minHeight: '250px' }}>
+          <div className="img-zoom-container mb-3" style={{ position: 'relative' }}>
             {(!imgLoaded || imgError) && (
               <div className="skeleton-img" style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: 2 }}></div>
             )}
@@ -178,7 +178,7 @@ function DestinationDetails() {
           </div>
         </div>
         {/* Right: Details and scrollable reviews */}
-        <div className="col-lg-6">
+        <div className="col-lg-6 mt-lg-0">
           <div className="details-scrollable">
             <h1 className="display-5 fw-bold mb-3">{destination.title}</h1>
             <p className="lead text-muted mb-3">{destination.description}</p>

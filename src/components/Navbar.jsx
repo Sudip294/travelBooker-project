@@ -45,7 +45,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        <div className={`collapse navbar-collapse ${!isCollapsed ? 'show' : ''}`} id="navbarNav">
+        <div className={`collapse navbar-collapse ${!isCollapsed ? 'show' : ''}`} id="navbarNav" style={{transition: 'all 0.3s ease'}}>
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <Link
@@ -221,7 +221,7 @@ const Navbar = () => {
           }
                
           .bar {
-            background-color: white;
+            background-color: black;
             height: 3px;
             width: 100%;
             transition: all 0.3s ease;
