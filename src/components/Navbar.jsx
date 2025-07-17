@@ -30,6 +30,27 @@ const Navbar = () => {
         </Link>
 
         <div className="d-flex ms-auto align-items-center">
+
+          {/* Theme Toggle Button for mobile - placed before hamburger */}
+          <div className="d-lg-none me-3">
+            <button
+              className="btn btn-outline-secondary border-0 p-2"
+              style={{ background: 'none', transition: 'color 0.3s,transform 0.3s', transform: theme === 'dark' ? 'rotate(0deg)' : 'rotate(360deg)' }}
+              onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+              aria-label="Toggle dark/light mode"
+            >
+              <i
+                className={`bi ${theme === 'dark' ? 'bi-sun-fill' : 'bi-moon-fill'}`}
+                style={{
+                  fontSize: '1.5rem',
+                  color: theme === 'dark' ? '#f8f9fa' : '#ffc107',
+                  transition: 'transform 0.3s, color 0.3s',
+                  transform: theme === 'dark' ? 'rotate(0deg)' : 'rotate(180deg)'
+                }}
+              ></i>
+            </button>
+          </div>
+
           {/* Custom hamburger icon */}
           <button
             className={`navbar-toggler ms-auto ${isCollapsed ? '' : 'collapsed'}`}
@@ -45,7 +66,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        <div className={`collapse navbar-collapse ${!isCollapsed ? 'show' : ''}`} id="navbarNav" style={{transition: 'all 0.3s ease'}}>
+        <div className={`collapse navbar-collapse ${!isCollapsed ? 'show' : ''}`} id="navbarNav" style={{ transition: 'all 0.3s ease' }}>
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <Link
@@ -113,7 +134,7 @@ const Navbar = () => {
                     dropdown.classList.toggle('show');
                   }}
                 >
-                  <i className="bi bi-person-circle me-1"></i>
+                  <i className="bi bi-person me-1"></i>
                   {user.name}
                 </a>
                 <ul className="dropdown-menu dropdown-menu-end">
@@ -123,7 +144,7 @@ const Navbar = () => {
                       to="/dashboard"
                       onClick={() => setIsCollapsed(true)}
                     >
-                      <i className="bi bi-speedometer2 me-2"></i>
+                      <i className="bi bi-person-vcard me-2"></i>
                       Dashboard
                     </Link>
                   </li>
@@ -134,7 +155,7 @@ const Navbar = () => {
                         to="/admin"
                         onClick={() => setIsCollapsed(true)}
                       >
-                        <i className="bi bi-gear-fill me-2"></i>
+                        <i className="bi bi-person-gear me-2"></i>
                         Admin Panel
                       </Link>
                     </li>
@@ -180,10 +201,10 @@ const Navbar = () => {
             )}
 
             {/* Theme Toggle Button */}
-            <li className="nav-item d-flex align-items-center ms-2">
+            <li className="nav-item d-none d-lg-flex align-items-center ms-2">
               <button
                 className="btn btn-outline-secondary border-0 p-2"
-                style={{ background: 'none', transition: 'color 0.3s' }}
+                style={{ background: 'none', transition: 'color 0.3s,transform 0.3s', transform: theme === 'dark' ? 'rotate(0deg)' : 'rotate(360deg)' }}
                 onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
                 aria-label="Toggle dark/light mode"
               >
@@ -193,7 +214,6 @@ const Navbar = () => {
                     fontSize: '1.5rem',
                     color: theme === 'dark' ? '#f8f9fa' : '#ffc107',
                     transition: 'transform 0.3s, color 0.3s',
-                    transform: theme === 'dark' ? 'rotate(0deg)' : 'rotate(180deg)'
                   }}
                 ></i>
               </button>
