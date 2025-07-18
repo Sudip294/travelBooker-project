@@ -27,6 +27,7 @@ const Dashboard = () => {
       confirmButtonColor: '#d33',
       cancelButtonColor: '#3085d6',
       confirmButtonText: 'Yes, cancel it!',
+      cancelButtonText: 'Back',
       reverseButtons: true
     }).then((result) => {
       if (result.isConfirmed) {
@@ -137,7 +138,7 @@ const Dashboard = () => {
               </div>
               <div className="card-body">
                 {userBookings.length > 0 ? (
-                  <div className="table-responsive">
+                  <div className="table-responsive" style={{ scrollbarWidth: 'thin' }}>
                     <table className="table table-hover">
                       <thead>
                         <tr>
