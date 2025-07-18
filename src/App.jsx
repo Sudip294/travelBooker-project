@@ -15,6 +15,7 @@ import Contact from './pages/Contact'
 import Blog from './pages/Blog'
 import Terms from './pages/Terms'
 import Privacy from './pages/Privacy'
+import ReloadFromTop from './components/ReloadFromTop'
 import './App.css'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <div className="App">
         <Navbar />
         <main className="main-content">
+          <ReloadFromTop />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/destinations" element={<Destinations />} />
