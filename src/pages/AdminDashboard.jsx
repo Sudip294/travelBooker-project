@@ -148,7 +148,7 @@ const AdminDashboard = () => {
                 </h5>
               </div>
               <div className="card-body">
-                <div className="table-responsive">
+                <div className="table-responsive" style={{ scrollbarWidth: 'thin' }}>
                   <table className="table table-hover">
                     <thead>
                       <tr>
