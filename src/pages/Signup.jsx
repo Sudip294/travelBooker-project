@@ -158,7 +158,7 @@ const Signup = () => {
                   <div className="mb-4 form-check">
                     <input type="checkbox" className="form-check-input" id="terms" required />
                     <label className="form-check-label" htmlFor="terms">
-                      I agree to the <a href="#" className="text-decoration-none">Terms of Service</a> and <a href="#" className="text-decoration-none">Privacy Policy</a>
+                      I agree to the <Link to="/terms" className="text-decoration-none">Terms of Service</Link> and <Link to="/privacy" className="text-decoration-none">Privacy Policy</Link>
                     </label>
                   </div>
 
