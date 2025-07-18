@@ -8,6 +8,7 @@ const blogPosts = [
     excerpt: "Discover the most stunning places to visit this year, from hidden gems to world-famous wonders. Our curated list includes must-see locations, travel tips, and the best times to visit. Whether you crave adventure, relaxation, or cultural immersion, these destinations have something for everyone. Start planning your next adventure with us!",
     image: "https://images.unsplash.com/photo-1535745122259-f1e187953c4c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRvcCUyMDEwJTIwZGVzdGluYXRpb258ZW58MHwwfDB8fHww?auto=format&fit=crop&w=600&q=80",
     author: "Priya Sharma",
+    avatar: "https://randomuser.me/api/portraits/women/68.jpg",
     date: "2024-05-01",
     tags: ["Destinations", "Inspiration"]
   },
@@ -17,6 +18,7 @@ const blogPosts = [
     excerpt: "Travel smart! Learn tips and tricks for finding the best deals, saving money, and making the most of your travel budget. We cover flight hacks, affordable accommodations, and how to enjoy luxury experiences without breaking the bank. Your dream vacation is closer than you think.",
     image: "https://images.unsplash.com/photo-1560332944-d047e59ac9b2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG93JTIwdG8lMjBib29rJTIwcGVyZmVjdCUyMHZhY2F0aW9ufGVufDB8MHwwfHx8MA%3D%3D?auto=format&fit=crop&w=600&q=80",
     author: "Alex Kim",
+    avatar: "https://randomuser.me/api/portraits/men/32.jpg",
     date: "2024-04-18",
     tags: ["Tips", "Budget"]
   },
@@ -26,6 +28,7 @@ const blogPosts = [
     excerpt: "Explore destinations and activities that are perfect for families with children, ensuring fun and safety for everyone. From theme parks to nature reserves, we highlight the best spots for family bonding and unforgettable memories.",
     image: "https://images.unsplash.com/photo-1687660187066-dc7e95eb3c5e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RmFtaWx5JTIwRnJpZW5kbHklMjBUcmF2ZWwlM0ElMjBCZXN0JTIwUGxhY2VzJTIwZm9yJTIwS2lkc3xlbnwwfDB8MHx8fDA%3D?auto=format&fit=crop&w=600&q=80",
     author: "Sara Lee",
+    avatar: "https://randomuser.me/api/portraits/women/65.jpg",
     date: "2024-03-30",
     tags: ["Family", "Activities"]
   },
@@ -35,6 +38,7 @@ const blogPosts = [
     excerpt: "Thinking of traveling alone? Here’s how to make the most of your solo adventures and stay safe on the road. We share inspiring stories, safety tips, and the best destinations for solo travelers.",
     image: "https://plus.unsplash.com/premium_photo-1677196297939-d3b6b4aa2975?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c29sbyUyMHRyYXZlbGluZ3xlbnwwfDB8MHx8fDA%3D?auto=format&fit=crop&w=600&q=80",
     author: "John Doe",
+    avatar: "https://randomuser.me/api/portraits/men/45.jpg",
     date: "2024-03-10",
     tags: ["Solo", "Inspiration"]
   },
@@ -44,6 +48,7 @@ const blogPosts = [
     excerpt: "Learn how to minimize your environmental impact while exploring the world. This guide covers eco-friendly accommodations, responsible wildlife tourism, and tips for reducing your carbon footprint on every trip. Make your adventures meaningful and help preserve our planet for future generations.",
     image: "https://images.unsplash.com/photo-1536625820882-a9f1f36a7baa?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHRoZSUyMFVsdGltYXRlJTIwR3VpZGUlMjB0byUyMFN1c3RhaW5hYmxlJTIwVHJhdmVsfGVufDB8MHwwfHx8MA%3D%3D?auto=format&fit=crop&w=600&q=80",
     author: "Maya Green",
+    avatar: "https://randomuser.me/api/portraits/women/22.jpg",
     date: "2024-02-20",
     tags: ["Sustainability", "Tips"]
   },
@@ -53,6 +58,7 @@ const blogPosts = [
     excerpt: "Never forget the important stuff again! Our packing checklist and expert advice will help you travel lighter, smarter, and stress-free. From must-have gadgets to space-saving hacks, get ready for your next journey with confidence.",
     image: "https://images.unsplash.com/photo-1509650926597-25eead3b6ca9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=600&q=80",
     author: "Liam Patel",
+    avatar: "https://randomuser.me/api/portraits/men/77.jpg",
     date: "2024-01-28",
     tags: ["Packing", "Tips"]
   }
@@ -94,7 +100,17 @@ export default function Blog() {
                 <p className="text-muted mb-3">{post.excerpt}</p>
                 <div className="d-flex align-items-center blog-meta mb-2">
                   <div className="blog-author-avatar me-2">
-                    <i className="bi bi-person-circle"></i>
+                    <img
+                      src={post.avatar}
+                      alt={post.author}
+                      style={{
+                        width: "36px",
+                        height: "36px",
+                        borderRadius: "50%",
+                        objectFit: "cover",
+                        border: "2px solid #4f8cff"
+                      }}
+                    />
                   </div>
                   <div>
                     <span className="fw-semibold">{post.author}</span>
