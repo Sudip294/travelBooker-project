@@ -80,7 +80,7 @@ function DestinationDetails() {
           <div className="col-lg-6">
             <div className="skeleton-img mb-3"></div>
             <div className="d-flex gap-2 justify-content-center">
-              {[1,2,3,4].map(i => (
+              {[1, 2, 3, 4].map(i => (
                 <div key={i} className="skeleton-thumbnail"></div>
               ))}
             </div>
@@ -92,7 +92,7 @@ function DestinationDetails() {
             <div className="skeleton-list mb-4"></div>
             <div className="skeleton-btn mb-4"></div>
             <div className="skeleton-review-list">
-              {[1,2,3].map(i => (
+              {[1, 2, 3].map(i => (
                 <div key={i} className="skeleton-review-card mb-3"></div>
               ))}
             </div>
@@ -104,7 +104,10 @@ function DestinationDetails() {
 
   return (
     <div className="container py-5 fade-in-detail" style={{ paddingTop: '100px' }}>
-      <button className="back-btn-custom mb-4" style={{ marginTop: '80px' }} onClick={() => navigate(-1)}>
+      <button className="back-btn-custom mb-4" style={{ marginTop: '80px' }} onClick={() => {
+        navigate('/destinations');
+        window.scrollTo(0, 0);
+      }}>
         <i className="bi bi-arrow-left" style={{ fontSize: '1.3rem', verticalAlign: 'middle' }}></i>
         <span style={{ verticalAlign: 'middle' }}>Back</span>
       </button>
