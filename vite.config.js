@@ -19,10 +19,22 @@ export default defineConfig({
         orientation: 'portrait',
         icons: [
           {
-            src: '/favicon.svg',
-            sizes: 'any',
-            type: 'image/svg+xml',
-            purpose: 'any maskable'
+            "src": "/favicon192px.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+          },
+          {
+            "src": "/favicon512px.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+          },
+          {
+            "src": "/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
           }
         ],
         scope: '.'
@@ -43,6 +55,14 @@ export default defineConfig({
             handler: 'CacheFirst',
             options: {
               cacheName: 'unsplash-images',
+              expiration: { maxEntries: 50, maxAgeSeconds: 60 * 60 * 24 * 30 }
+            }
+          },
+          {
+            urlPattern: /^https:\/\/randomuser\.me\//i,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'randomuser-avatars',
               expiration: { maxEntries: 50, maxAgeSeconds: 60 * 60 * 24 * 30 }
             }
           }
