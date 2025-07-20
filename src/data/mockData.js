@@ -107,9 +107,9 @@ export const destinations = [
     rating: 4.7,
     moreInfo: 'Cape Town is a blend of natural beauty, cultural diversity, and rich history. Hike or ride the cable car up Table Mountain, explore the Cape Winelands, and visit the historic Robben Island. Drive along the scenic Chapman’s Peak to Cape Point, and unwind on Clifton Beach. Sample local food like Cape Malay curry, and take a township tour to learn about post-apartheid life.',
     thumbnails: [
-      'https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=400&q=80',
-      'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80',
-      'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=400&q=80'
+      'https://images.unsplash.com/photo-1563656157432-67560011e209?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=400&q=80',
+      'https://images.unsplash.com/photo-1474874055390-459bc92357f3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2FwZSUyMHRvd258ZW58MHwwfDB8fHww?auto=format&fit=crop&w=400&q=80',
+      'https://plus.unsplash.com/premium_photo-1697730005046-8706d7a72bcd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNhcGUlMjB0b3dufGVufDB8MHwwfHx8MA%3D%3D?auto=format&fit=crop&w=400&q=80'
     ]
   },
   {
@@ -123,9 +123,9 @@ export const destinations = [
     rating: 4.8,
     moreInfo: 'Sydney combines surf culture, coastal scenery, and cosmopolitan living. Visit the iconic Opera House and Harbour Bridge, relax on Bondi and Manly beaches, or walk the coastal cliff path from Bondi to Coogee. Explore The Rocks district’s heritage, enjoy multicultural food in Darling Harbour, and take a day trip to the Blue Mountains for hiking and wildlife.',
     thumbnails: [
-      'https://images.unsplash.com/photo-1563656157432-67560011e209?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=400&q=80',
-      'https://images.unsplash.com/photo-1474874055390-459bc92357f3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2FwZSUyMHRvd258ZW58MHwwfDB8fHww?auto=format&fit=crop&w=400&q=80',
-      'https://plus.unsplash.com/premium_photo-1697730005046-8706d7a72bcd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNhcGUlMjB0b3dufGVufDB8MHwwfHx8MA%3D%3D?auto=format&fit=crop&w=400&q=80'
+      'https://images.unsplash.com/photo-1680240315822-9f996d246c89?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fFN5ZG5leSUyQyUyMEF1c3RyYWxpYXxlbnwwfDB8MHx8fDA%3D?auto=format&fit=crop&w=400&q=80',
+      'https://images.unsplash.com/photo-1743350827791-9ecce778bf60?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fFN5ZG5leSUyQyUyMEF1c3RyYWxpYXxlbnwwfDB8MHx8fDA%3D?auto=format&fit=crop&w=400&q=80',
+      'https://images.unsplash.com/photo-1689834676569-cc12b2a74a8b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=400&q=80'
     ]
   },
   {
@@ -187,9 +187,9 @@ export const destinations = [
     rating: 4.9,
     moreInfo: 'Banff National Park is an outdoor lover’s dream. Marvel at turquoise lakes like Lake Louise and Moraine Lake, walk the Johnston Canyon trail to waterfalls, and ride the Sulphur Mountain gondola. Wildlife sightings (elk, bears) are common. In winter, the town transforms with skiing, snowboarding, and hot springs—ideal for all-season adventure.',
     thumbnails: [
-      'https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=400&q=80',
-      'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80',
-      'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=400&q=80'
+      'https://images.unsplash.com/photo-1581259021841-a16d7c2a777d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmFuZmZ8ZW58MHwwfDB8fHww?auto=format&fit=crop&w=400&q=80',
+      'https://images.unsplash.com/photo-1576547756401-f9e122d87431?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGJhbmZmfGVufDB8MHwwfHx8MA%3D%3D?auto=format&fit=crop&w=400&q=80',
+      'https://images.unsplash.com/photo-1600885398981-49f4cca7fcc5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=400&q=80'
     ]
   },
   {
@@ -203,9 +203,9 @@ export const destinations = [
     rating: 4.6,
     moreInfo: 'Cairo sits at the crossroads of ancient and modern worlds. Stand in awe of the Great Pyramids of Giza and the Sphinx, then explore the Egyptian Museum’s treasures (Tutankhamun’s mask). Wander through the vibrant Khan El Khalili bazaar, sip mint tea in historic cafés, and take a Nile dinner cruise. Nearby, consider a day trip to Saqqara or Memphis.',
     thumbnails: [
-      'https://images.unsplash.com/photo-1581259021841-a16d7c2a777d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmFuZmZ8ZW58MHwwfDB8fHww?auto=format&fit=crop&w=400&q=80',
-      'https://images.unsplash.com/photo-1576547756401-f9e122d87431?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGJhbmZmfGVufDB8MHwwfHx8MA%3D%3D?auto=format&fit=crop&w=400&q=80',
-      'https://images.unsplash.com/photo-1600885398981-49f4cca7fcc5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=400&q=80'
+      'https://images.unsplash.com/photo-1668647027234-052f5648a0a6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=400&q=80',
+      'https://plus.unsplash.com/premium_photo-1661963789085-b057eb0185c7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=400&q=80',
+      'https://images.unsplash.com/photo-1653140498578-efb4a8483928?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=400&q=80'
     ]
   },
   {
